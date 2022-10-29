@@ -16,9 +16,6 @@ ITERATIONS - is 1 by default. Increase this to 20 to see how fast Java will get,
 # My Results
 On my machine the first iteration takes somewhere between 50ms and 90ms and speeds up to 18ms - 20ms after some iterations.
 
-# Further improvements
-The code is single threaded and to my surprise first attempts to speed it up by splitting work on multiple threads did not show any results.
-
 # Optimizations
 
 Pruning:
@@ -36,3 +33,6 @@ Other optimizations:
 * omit string creation completely (on reading file and when printing solutions)
 * use int-arrays instead of Lists
 * reading whole file in one byte-array
+
+# Further improvements
+The code is single threaded and to my surprise first attempts to speed it up by splitting work on multiple threads did not show satisfying results yet.
