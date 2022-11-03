@@ -4,7 +4,7 @@ Finding 5 words with 5 different letters each, using all but one letter from the
 For context watch this: https://www.youtube.com/watch?v=c33AZBnRHks
 
 I was disappointed, that the fastest java based solution ranked on 10th place (as of 29th of Oct/22), so I wanted to give it a try.
-(see https://docs.google.com/spreadsheets/d/1sHYseIx9vyLWvKfzAf6hxHzc6tZu2XdZ2U9RYxNIQeo/edit#gid=0 )
+(see https://docs.google.com/spreadsheets/d/11sUBkPSEhbGx2K8ah6WbGV62P8ii5l5vVeMpkzk17PI/edit#gid=0)
 
 # Usage:
 `java WordleFast7 WORDSFILE [ITERATIONS]`
